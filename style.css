@@ -30,7 +30,17 @@
     letter-spacing: 0.1px;
 
 }
-.nav-container2 > ul {
+
+.naija-txt:hover{
+    background: #1bc768;
+    background-color: #1bc768;
+    padding: 1px 20px;
+    border-radius: 20px;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.nav-container2 > ul{
     margin-left: 41px;
     align-items: center;
     display: flex;
@@ -41,6 +51,21 @@
     font-size: 14px;
     letter-spacing: 0.2px;
     font-weight: 500;
+    color: white;
+}
+.nav-container2 a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    color: white;
+}
+.nav-container2 a:hover{
+    color: #1bc768;
+    font-weight: 600;
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 .nav-container3{
     display: flex;
@@ -217,11 +242,23 @@
     background-color: white;
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
 }
+.white-case:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.17);
+}
+
 .green-case{
  
     padding: 35px 42px;
     background-color: #1bc768;
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.green-case:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.17);
 }
 .green-case h1{
     width: fit-content;
@@ -404,7 +441,8 @@
 }
 .learn-more-btn:hover{
     box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.07);
-    
+    transform: scale(1.05);
+    transition: 0.7s;
 }
 
 
@@ -486,6 +524,16 @@
     line-height: 24px;
     letter-spacing: 0.2px;
 }
+.learn-more-next:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: white;
+    color: #1bc768;
+    padding: 15px 10px;
+    border-radius: 5px;
+    padding-right: 20px;
+    gap: 55px;
+}
 .layout-4-5{
     background-color: white;
     padding: 160px 195px;
@@ -564,9 +612,10 @@
     color: #ffff;
     background: #1bc768;
     background-color: #1bc768;
-    padding: 15px 80px;
+    padding: 15px 40px;
     border-radius: 5px;
     letter-spacing: 0.2px;
+    width: auto;
 }
 
 .list-item{
@@ -745,6 +794,78 @@
     font-family: "Montserrat", sans-serif;
     border-radius: 5px;
 }
+#button:hover{
+    background-color: white;
+    color: #1bc768;
+    transform: scale(1.05);
+    transition: 0.3s;
+    padding: 15px 15px;
+   
+}
+
+.footer{
+    background-color: #1b1b1b;
+    padding: 40px 0;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-section{
+    margin-left: 132px;
+    margin-right: 132px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-self: center;
+}
+.footer-top{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footer-top h2{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 10px;
+}
+.social-icons a{
+    color: #1bc768;
+    text-decoration: none;
+}
+.social-icons a:hover{
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.footer-content{
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Responsive helpers and breakpoints */
 @media (max-width: 1200px) {
